@@ -7,18 +7,18 @@ export function createAdmin(data) {
 
   const requestOptions = {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Accept": "application/json" },
     body: JSON.stringify(data),
   };
 
   return fetch(API + "/register", requestOptions).then((res) => res.json());
 }
 
-export function signinAdmin(data) {
+export function loginAdmin(data) {
 
     const requestOptions = {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Accept": "application/json" },
       body: JSON.stringify(data),
     };
 
