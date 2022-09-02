@@ -14,7 +14,7 @@
         <p class="text-red text-xs italic">Please choose a password.</p>
         </div>
         <div class="flex items-center justify-between">
-        <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" type="button">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             Sign In
         </button>
         <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">
